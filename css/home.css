@@ -1,30 +1,3 @@
-:root {
-    --title-color: #322153;/*variaveis css*/
-    --primary-color: #34cb79;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: Ubuntu, sans-serif;
-    color: var(--title-color);
-}
-
-html {
-    font-family: Roboto, sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
-
-body {
-    background-color: #f0f0f5;
-}
-
-a {
-    text-decoration: none;
-}
 
 #page-home {
     background: url('../assets/home-background.svg') no-repeat;
@@ -42,6 +15,7 @@ a {
 }
 
 header {
+    margin-top: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,14 +24,15 @@ header {
 #page-home a {
     display: flex;
     align-items: center;
+    color: var(--title-color);
     font-weight: 700;
 }
 
-#page-home p a span {
-    background-image: url('../assets/log-in.svg');
+#page-home header a span {
+    background: url('../assets/log-in.svg') no-repeat;
     width: 20px;
     height: 20px;
-    margin-right: 15px;
+    margin-right: 16px;
 }
 
 #page-home main {
@@ -109,7 +84,7 @@ header {
 }
 
 #page-home main a span::after {
-    content: '';
+    content: "";
     background: url('../assets/search.svg') no-repeat;
     width: 20px;
     height: 20px;
@@ -121,27 +96,3 @@ header {
     color: aliceblue;
 }
 
-@media (max-width:900px){
-
-    #page-home {
-        background-position: 70vw;
-    }
-
-    #page-home .content {
-        align-items: center;
-        text-align: center;
-    }
-
-    header a {
-        position: absolute;
-        bottom: 48px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    #page-home main {
-        align-items: center;
-    }
-
-
-}
