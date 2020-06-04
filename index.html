@@ -8,6 +8,7 @@
    
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
         <div class="content">
                 <header>
                         <img src="assets/logo.svg" alt="ecoleta">
-                        <a href="">
+                        <a href="create-point.html">
                             <span></span>
                             Cadastre um ponto de coleta</a>
                 </header>
@@ -25,11 +26,27 @@
                 <p>
                 Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.
                 </p>
-                <a href=""><span></span><strong>Encontre pontos de coleta.</strong></a>
+                <a href="#"><span></span><strong>Encontre pontos de coleta.</strong></a>
             </div>
         </main>
     </div>
+    <div id="modal" class="hide">
+        <div class="content">
+            <div class="header">
+                <h1>Pontos de Coleta</h1>
+                <a href="/search-results.html">Fechar</a>
+            </div>
+            <form action="/search-results.html">
+                <label for="search">Cidade</labek>
+                <div class="search-field"><input type="text" name="search" placeholder="Pesquise por Cidade">
+                <button>
+                    <img src="assets/search.svg" alt="buscar">
+                </button>
+                </div>
 
+            </form>
+        </div>
+    </div>
     
 
 
