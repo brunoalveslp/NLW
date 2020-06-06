@@ -1,0 +1,27 @@
+{
+  "name": "NLW",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoalveslp/NLW.git"
+  },
+  "keywords": [],
+  "author": "Bruno Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoalveslp/NLW"
+  },
+  "homepage": "https://github.com/brunoalveslp/NLW#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
