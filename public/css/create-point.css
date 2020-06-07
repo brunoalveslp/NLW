@@ -98,10 +98,11 @@ form .field-group .field + .field {
     margin-left: 24px;
 }
 
-form button {
+.but {
     width: 260px;
     height: 56px;
 
+    float: right;
     margin-top: 40px;
     border: none;
     border-radius: 8px;
@@ -112,7 +113,7 @@ form button {
     background-color: var(--primary-color);
 }
 
-form button:hover {
+.but:hover {
     transition: 400ms;
     background-color: #2fb86e;
 }
@@ -121,6 +122,8 @@ form button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .items-grid li {
@@ -150,7 +153,8 @@ form button:hover {
 
 .items-grid li.selected { 
      background-color: #e1faec; 
-     border: 2px solid #42c47a;  
+     border: 2px solid #42c47a;
+     margin: 0 0 0 0;
  }  
 
  .items-grid li img, .items-grid li span {
