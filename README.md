@@ -9,4 +9,3 @@ Nunjucks
 SQLite
 
 
-<script src="https://github.com/brunoalveslp/NLW/src/index.js"></script>
